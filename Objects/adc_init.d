@@ -1,0 +1,11 @@
+.\objects\adc_init.o: ADC_Init.c
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_adc.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_bus.h
+.\objects\adc_init.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_ll_gpio.h

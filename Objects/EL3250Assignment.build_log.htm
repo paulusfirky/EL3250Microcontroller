@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Paul Fairclough, UCLan, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\paulf\Documents\_University\Year 3\EL3250 - Microcontroller Systems\Assignment\__BEST ONE\MICRO ALL LL (6-12-19)\MICRO LOGIC ANALYZER\EL3250Assignment\EL3250Assignment.uvprojx
+Project File Date:  12/06/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling BSP476.c...
+compiling USART.c...
+compiling retarget_io.c...
+compiling main.c...
+main.c(72): warning:  #223-D: function "strlen" declared implicitly
+  				length = strlen(message);// strlen returns the size of the message array, which is used for the loop to send data to Terminal
+main.c: 1 warning, 0 errors
+compiling ADC.c...
+compiling DAC.c...
+compiling stm32l4xx_ll_dac.c...
+compiling stm32l4xx_ll_gpio.c...
+compiling stm32l4xx_ll_adc.c...
+assembling startup_stm32l476xx.s...
+compiling stm32l4xx_ll_rcc.c...
+compiling system_stm32l4xx.c...
+compiling stm32l4xx_ll_usart.c...
+linking...
+Program Size: Code=11804 RO-data=784 RW-data=44 ZI-data=5636  
+".\Objects\EL3250Assignment.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.3.1.pack
+                Keil.ARM_Compiler.1.3.1
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: ITM Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.2.0.pack
+                Keil.STM32L4xx_DFP.2.2.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+   * Component: USART Version: 1.9.0
+   * Component: RCC Version: 1.9.0
+   * Component: GPIO Version: 1.9.0
+   * Component: DAC Version: 1.9.0
+   * Component: Common Version: 1.9.0
+   * Component: ADC Version: 1.9.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\STM32L4xx_HAL_Driver\Inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.3.1
+      Include file:  Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32L4xx_DB_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\arm\startup_stm32l476xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\system_stm32l4xx.c
+
+   * Component: Keil::Device:STM32Cube LL:USART:1.9.0
+      Source file:   Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_usart.c
+
+   * Component: Keil::Device:STM32Cube LL:RCC:1.9.0
+      Source file:   Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_rcc.c
+
+   * Component: Keil::Device:STM32Cube LL:GPIO:1.9.0
+      Source file:   Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_gpio.c
+
+   * Component: Keil::Device:STM32Cube LL:DAC:1.9.0
+      Source file:   Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_dac.c
+
+   * Component: Keil::Device:STM32Cube LL:Common:1.9.0
+
+   * Component: Keil::Device:STM32Cube LL:ADC:1.9.0
+      Source file:   Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_adc.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:ITM:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:32
+</pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+".\objects\main.o"
+".\objects\bsp476.o"
+".\objects\usart.o"
+".\objects\adc.o"
+".\objects\dac.o"
+".\objects\retarget_io.o"
+".\objects\stm32l4xx_ll_adc.o"
+".\objects\stm32l4xx_ll_dac.o"
+".\objects\stm32l4xx_ll_gpio.o"
+".\objects\stm32l4xx_ll_rcc.o"
+".\objects\stm32l4xx_ll_usart.o"
+".\objects\startup_stm32l476xx.o"
+".\objects\system_stm32l4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\EL3250Assignment.map" -o .\Objects\EL3250Assignment.axf
